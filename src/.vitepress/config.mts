@@ -1,5 +1,10 @@
 import { defineConfig } from 'vitepress'
-
+import { SearchPlugin } from "vitepress-plugin-search";
+var options = {
+	    previewLength: 62,
+	      buttonLabel: "Search",
+	        placeholder: "Search docs",
+};
 export default defineConfig({
   lang: 'zh-CN',
   title: 'Anemo',
@@ -12,8 +17,10 @@ export default defineConfig({
   ],
   lastUpdated: true,
   markdown: {
-    theme: 'one-dark-pro'
+    theme: 'one-dark-pro',
+    lineNumbers: true
   },
+  plugins: [SearchPlugin(options)],
   themeConfig: {
     logo: '/anemo.png',
     nav: [
