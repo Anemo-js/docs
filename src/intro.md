@@ -17,7 +17,7 @@
 框架提供了完备的状态监控、插件管理（支持热更新）、主副管理员机制、消息通知、请求处理功能以及友好的脚手架, 开箱即用。框架完全开源, 可扩展性强, 插件开发简单, 核心底层协议使用 [oicq](https://github.com/takayama-lily/oicq) v2, API 众多, 功能强大。另外, 框架使用 [node](https://nodejs.org/) 驱动, 得益于 node 及其高效的 v8 引擎, Anemo 的性能可观。
 
 本项目完全使用MIT进行开源
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FLisk809%2FLskBot.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FLisk809%2FLskBot?ref=badge_shield)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FLisk809%2Fanemo.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FLisk809%2Fanemo?ref=badge_large)
 
 本项目开发初衷在于提高群活跃氛围、方便群管理, 仅供个人娱乐、学习和交流使用, **不得将本项目用于任何非法用途**。
 
